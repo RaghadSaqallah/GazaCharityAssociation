@@ -1,0 +1,46 @@
+{
+  "name": "pcit",
+  "version": "1.0.0",
+  "description": "A responsive flower shop e-commerce project built with **HTML**, **Tailwind CSS**, and **Vanilla JavaScript**.",
+  "main": "index.js",
+  "dependencies": {
+    "@tailwindcss/cli": "^4.3.3",
+    "braces": "^3.0.3",
+    "detect-libc": "^1.0.3",
+    "enhanced-resolve": "^5.26.0",
+    "fill-range": "^7.1.1",
+    "graceful-fs": "^4.2.11",
+    "is-extglob": "^2.1.1",
+    "is-glob": "^4.0.3",
+    "is-number": "^7.0.0",
+    "jiti": "^2.7.0",
+    "lightningcss": "^1.32.0",
+    "lightningcss-win32-x64-msvc": "^1.32.0",
+    "magic-string": "^0.30.21",
+    "micromatch": "^4.0.8",
+    "mri": "^1.2.0",
+    "node-addon-api": "^7.1.1",
+    "picocolors": "^1.1.1",
+    "picomatch": "^2.3.2",
+    "source-map-js": "^1.2.1",
+    "tailwindcss": "^4.3.3",
+    "tapable": "^2.3.3",
+    "to-regex-range": "^5.0.1"
+  },
+  "scripts": {
+    "dev": "tailwindcss -i ./css/input.css -o ./css/style.css --watch",
+    "build": "tailwindcss -i ./css/input.css -o ./css/style.css --minify"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/RaghadSaqallah/bloomShop.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "type": "commonjs",
+  "bugs": {
+    "url": "https://github.com/RaghadSaqallah/bloomShop/issues"
+  },
+  "homepage": "https://github.com/RaghadSaqallah/bloomShop#readme"
+}

@@ -1,0 +1,10 @@
+@import "tailwindcss";
+
+@theme {
+    --color-secondary: #A6CDC6;
+    /* page */
+    --color-primary: #eeee;
+    /* green */
+    --color-third: #213555;
+
+}

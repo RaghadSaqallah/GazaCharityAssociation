@@ -1,0 +1,49 @@
+backend:
+  name: git-gateway
+  branch: main # تأكدي أن اسم فرع الـ GitHub لديك هو main أو master
+
+media_folder: "images" # المجلد الذي تُحفظ فيه الصور الجديدة التي يرفعها الآدمن
+public_folder: "/images"
+
+collections:
+  - name: "content"
+  
+    label: "إدارة محتوى الموقع"
+    files:
+      - file: "content.json"
+        name: "content"
+        label: "الصفحة الرئيسية"
+        fields:
+          # الإحصائيات
+          - {label: "رقم إحصائية المساعدات", name: "stat_1_number", widget: "string"}
+          - {label: "نص إحصائية المساعدات", name: "stat_1_text", widget: "string"}
+          - {label: "رقم إحصائية المياه", name: "stat_2_number", widget: "string"}
+          - {label: "نص إحصائية المياه", name: "stat_2_text", widget: "string"}
+          - {label: "رقم إحصائية المصروفات", name: "stat_3_number", widget: "string"}
+          - {label: "نص إحصائية المصروفات", name: "stat_3_text", widget: "string"}
+
+          # الهيرو
+          - {label: "عنوان الهيرو الرئيسي", name: "hero_title", widget: "string"}
+          - {label: "وصف الهيرو", name: "hero_text", widget: "text"}
+          - {label: "صورة الهيرو", name: "hero_image", widget: "image"}
+
+          # من نحن
+          - {label: "من نحن (الفقرة الأولى)", name: "about_p1", widget: "text"}
+          - {label: "من نحن (الفقرة الثانية)", name: "about_p2", widget: "text"}
+          - {label: "من نحن (الفقرة الثالثة)", name: "about_p3", widget: "text"}
+          - {label: "صورة من نحن", name: "about_image", widget: "image"}
+
+          # الخدمات (السلايدر - يمكنه التعديل أو الإضافة)
+          - label: "الخدمات (السلايدر)"
+            name: "services"
+            widget: "list"
+            fields:
+              - {label: "عنوان الخدمة", name: "title", widget: "string"}
+              - {label: "وصف الخدمة", name: "description", widget: "text"}
+              - {label: "صورة الخدمة", name: "image", widget: "image"}
+
+          # العنوان واتصل بنا
+          - {label: "عنوان المقر الرئيسي", name: "address_location", widget: "string"}
+          - {label: "ساعات الدوام", name: "working_hours", widget: "string"}
+          - {label: "رقم الهاتف", name: "phone", widget: "string"}
+          - {label: "البريد الإلكتروني", name: "email", widget: "string"}

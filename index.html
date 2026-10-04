@@ -1,0 +1,230 @@
+<!DOCTYPE html>
+<html lang="ar" dir="rtl">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>جمعية غزة الخيرية|Gaza Charity Association</title>
+    <link rel="stylesheet" href="css/owlStyle.css">
+    <link rel="stylesheet" href="css/all.min.css">
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" href="css/owl.carousel.min.css">
+    <link rel="stylesheet" href="css/owl.theme.default.min.css">
+</head>
+
+<body class="font-['Cairo'] bg-[#f9f9f9]">
+
+    <header class="bg-secondary sticky top-0 z-5 py-1">
+        <nav class="max-w-6xl px-3 mx-auto flex items-center justify-between ">
+            <div class="flex justify-center items-center">
+                <div>
+                    <p class="text-third font-bold text-[13px] lg:text-[18px]">جمعية غزة الخيرية</p>
+                    <p class="text-third text-[13px] lg:text[16px]">Gaza Charity Association</p>
+                </div>
+                <a href="index.html">
+                    <img src="images/logo2.png" alt="" class="w-20 lg:w-25">
+                </a>
+            </div>
+
+            <div class="menu relative">
+                <button class="lg:hidden btn-list cursor-pointer"><i
+                        class="fas fa-bars text-third text-2xl"></i></button>
+                <ul id="nav-menu"
+                    class="fixed left-[-300px] top-[5px] text-lg w-[150px] rounded-[10px] pt-[50px] transition-all duration-300 ease-in-out h-[100vh] flex flex-col gap-10 items-center lg:static lg:w-auto lg:gap-10 lg:h-auto lg:flex-row lg:pt-0 bg-secondary">
+                    <button
+                        class="absolute top-[20px] right-[10px] rounded-full w-[20px] h-[20px] flex items-center justify-center cursor-pointer hidden text-third font-bold"
+                        id="x">x</button>
+                    <li class="lg:text-third lg:border-b-1 lg:border-b-transparent text-third font-semibold"><a
+                            href="#about">من نحن</a></li>
+                    <li class="lg:text-third lg:border-b-1 lg:border-b-transparent text-third font-semibold"><a
+                            href="#services">الخدمات</a></li>
+                    <li class="lg:text-third lg:border-b-1 lg:border-b-transparent text-third font-semibold"><a
+                            href="#address">العنوان</a></li>
+                    <li
+                        class="lg:text-third lg:border-b-1 lg:border-b-transparent lg:hover:border-b-1 border-b-solid lg:hover:border-secondary text-third font-semibold">
+                        <a href="#contact">اتصل بنا</a>
+                    </li>
+                </ul>
+            </div>
+        </nav>
+    </header>
+
+    <main>
+        <!-- الإحصائيات -->
+        <section class="max-w-6xl px-3 mx-auto py-8">
+            <div class="bg-white border border-gray-200 rounded-2xl shadow-sm p-6 lg:p-8">
+                <div
+                    class="grid grid-cols-1 md:grid-cols-3 gap-8 text-center divide-y md:divide-y-0 md:divide-x md:divide-x-reverse divide-gray-100">
+
+                    <div class="flex flex-col items-center justify-center pt-4 md:pt-0">
+                        <div
+                            class="w-12 h-12 rounded-full bg-[#eeeeee] flex items-center justify-center text-third mb-3 text-xl">
+                            <i class="fa-solid fa-hand-holding-dollar"></i>
+                        </div>
+                        <div class="text-3xl lg:text-4xl font-bold text-third mb-1">
+                            $<span id="stat_1_number" class="counter">0</span>
+                        </div>
+                        <p id="stat_1_text" class="text-gray-600 text-sm font-semibold"></p>
+                    </div>
+
+                    <div class="flex flex-col items-center justify-center pt-4 md:pt-0">
+                        <div
+                            class="w-12 h-12 rounded-full bg-[#eeeeee] flex items-center justify-center text-third mb-3 text-xl">
+                            <i class="fa-solid fa-droplet"></i>
+                        </div>
+                        <div class="text-3xl lg:text-4xl font-bold text-third mb-1">
+                            <span id="stat_2_number" class="counter">0</span>+
+                        </div>
+                        <p id="stat_2_text" class="text-gray-600 text-sm font-semibold"></p>
+                    </div>
+
+                    <div class="flex flex-col items-center justify-center pt-4 md:pt-0">
+                        <div
+                            class="w-12 h-12 rounded-full bg-[#eeeeee] flex items-center justify-center text-third mb-3 text-xl">
+                            <i class="fa-solid fa-coins"></i>
+                        </div>
+                        <div class="text-3xl lg:text-4xl font-bold text-third mb-1">
+                            <span id="stat_3_number" class="counter">0</span>
+                        </div>
+                        <p id="stat_3_text" class="text-gray-600 text-sm font-semibold"></p>
+                    </div>
+
+                </div>
+            </div>
+        </section>
+
+        <!-- الهيرو -->
+        <section class="max-w-6xl px-3 mx-auto py-12">
+            <div class="grid lg:grid-cols-2 gap-10 items-center">
+                <div class="flex flex-col gap-6">
+                    <h2 id="hero_title" class="text-3xl lg:text-5xl font-bold lg:leading-17 text-third"></h2>
+                    <p id="hero_text" class="text-[16px] lg:text-[18px] leading-9"></p>
+                    <div class="flex gap-5 items-center">
+                        <a href="#services"
+                            class="px-7 py-3 rounded-full font-semibold bg-third text-white hover:-translate-y-1 transition-all duration-300">تعرف
+                            علينا</a>
+                        <a href="https://palestinehouse.org/donate/"
+                            class="px-7 py-3 rounded-full font-semibold border-third border-2 text-third hover:-translate-y-1 transition-all duration-300">تبرع
+                            الان</a>
+                    </div>
+                </div>
+                <div>
+                    <img id="hero_image" src="" alt="team" class="rounded-2xl">
+                </div>
+            </div>
+        </section>
+
+        <!-- من نحن -->
+        <section class="max-w-6xl px-3 mx-auto py-12 bg-gray-100 rounded-2xl" id="about">
+            <div class="grid lg:grid-cols-2 gap-15 items-center">
+                <div>
+                    <img id="about_image" src="" alt="team" class="rounded-2xl">
+                </div>
+                <div class="flex flex-col">
+                    <h2 class="text-third text-4xl font-bold">من نحن</h2>
+                    <p id="about_p1" class="text-[17px] leading-8 pt-4"></p>
+                    <p id="about_p2" class="text-[17px] leading-8 pt-4"></p>
+                    <p id="about_p3" class="text-[17px] leading-8 pt-4"></p>
+                </div>
+            </div>
+        </section>
+
+        <!-- الخدمات (السلايدر) -->
+        <section class="max-w-6xl px-3 py-12 mx-auto relative" id="services">
+            <h2 class="font-semibold text-third text-4xl mb-6">خدماتنا</h2>
+            <div id="services-carousel" class="owl-carousel owl-theme py-5">
+            </div>
+        </section>
+
+        <!-- العنوان -->
+        <section class="max-w-6xl px-3 mx-auto" id="address">
+            <div class="grid md:grid-cols-2 gap-10 items-center">
+                <div>
+                    <h2 class="text-3xl text-third font-semibold">عنواننا</h2>
+                    <div class="mt-6 flex flex-col gap-5 text-[18px] leading-8">
+                        <div>
+                            <i class="fa-solid fa-location-dot"></i>
+                            <strong>المقر الرئيسي</strong>
+                            <p id="address_location"></p>
+                        </div>
+                        <div>
+                            <i class="fa-solid fa-calendar-days"></i>
+                            <strong>ساعات الدوام</strong>
+                            <p id="working_hours"></p>
+                        </div>
+                    </div>
+                </div>
+                <div class="relative h-64 overflow-hidden rounded-2xl border border-line md:h-full md:min-h-[16rem]">
+                    <iframe
+                        src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d4809.682805519129!2d34.44449644848277!3d31.52527702674541!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x14fd7f17d515ada1%3A0x8651fe7e2f0edcfc!2z2LnZhdin2LHYqSDYsnsin2YIg2KfZhNmE2Yc!5e0!3m2!1sar!2s!4v1790755320309!5m2!1sar!2s"
+                        width="100%" height="100%" style="border:0;" allowfullscreen="" loading="lazy"></iframe>
+                </div>
+            </div>
+        </section>
+
+        <!-- اتصل بنا -->
+        <section class="max-w-6xl px-3 py-12 mx-auto mt-10" id="contact">
+            <div class="grid md:grid-cols-2 gap-10 items-center">
+                <div class="flex flex-col gap-6 text-[18px]">
+                    <div>
+                        <h2 class="text-third text-3xl font-semibold">اتصل بنا</h2>
+                        <p class="mt-5">اترك رسالتك وسنرد عليك في أقرب وقت.</p>
+                    </div>
+                    <div class="flex gap-1 items-center">
+                        <i class="fa-solid fa-phone"></i>
+                        <p class="font-semibold">الهاتف:</p>
+                        <p id="phone_text"></p>
+                    </div>
+                    <div class="flex gap-1 items-center">
+                        <i class="fa-solid fa-envelope text-black"></i>
+                        <p class="font-semibold">البريد:</p>
+                        <p id="email_text"></p>
+                    </div>
+                </div>
+
+                <div class="rounded-2xl border py-5 px-6 bg-primary flex flex-col gap-6">
+                    <div class="flex flex-col gap-3"><label class="text-sm font-semibold" for="name">الاسم</label>
+                        <input id="name" class="w-full rounded-lg border px-4 py-2.5" autocomplete="name">
+                    </div>
+                    <div class="flex flex-col gap-3"><label class="text-sm font-semibold" for="email">البريد
+                            الإلكتروني</label>
+                        <input id="email" type="email" class="w-full rounded-lg border border-line bg-bg px-4 py-2.5"
+                            autocomplete="email" dir="ltr">
+                    </div>
+                    <div class="flex flex-col gap-3"><label class="text-sm font-semibold" for="msg">الرسالة</label>
+                        <textarea id="msg" rows="2"
+                            class="w-full rounded-lg border border-line bg-bg px-4 py-2.5"></textarea>
+                    </div>
+                    <p id="status" class="min-h-[1.5rem] text-sm" role="status"></p>
+                    <button id="send"
+                        class="rounded-full bg-third text-white border border-third px-8 py-3 font-semibold hover:cursor-pointer hover:bg-[#1a2536fa] transition-all duration-300">أرسل
+                        الرسالة</button>
+                </div>
+            </div>
+        </section>
+    </main>
+
+    <footer class="bg-secondary py-8 flex flex-col justify-center items-center text-third font-semibold">
+        <div>
+            <a href="index.html"><img src="images/logo2.png" alt="" class="w-30"></a>
+        </div>
+        <div class="flex flex-col items-center justify-center gap-2 mt-3">
+            <p>Follow Us On Social Media</p>
+            <div class="flex items-center justify-center">
+                <a href="https://www.instagram.com/palestinehouselounge/" class="text-2xl hover:text-[#0f1724] p-2.5"><i
+                        class="fab fa-instagram"></i></a>
+                <a href="https://wa.me/972593419076" class="text-2xl hover:text-[#0f1724] p-2.5"><i
+                        class="fab fa-whatsapp"></i></a>
+            </div>
+            <p>.All rights reserved Gaza Charity Association 2026 &copy;</p>
+        </div>
+    </footer>
+
+    <script src="js/jquery.min.js"></script>
+    <script src="js/jquery.waypoints.min.js"></script>
+    <script src="js/jquery.counterup.min.js"></script>
+    <script src="js/owl.carousel.min.js"></script>
+    <script src="js/script.js"></script>
+</body>
+
+</html>
